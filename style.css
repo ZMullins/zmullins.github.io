@@ -1,0 +1,127 @@
+body{
+    margin:0;
+    font-size: 62.5%;
+    width: 100%;
+    height:auto;
+    background-color: #2578C1;
+    color:#EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainContent{
+    margin: 10vh 0 0 10vh;
+    height:auto;
+
+}
+#mainContentFade {
+
+}
+#resume {
+    font-size:4vh;
+    line-height: 12vh;
+}
+#period {
+    display:inline;
+    font-weight: bolder;
+    opacity: 0;
+     -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+            animation: fadein 0.5s;
+     animation-delay: 1.3s;
+    -webkit-animation-delay: 1.3s;
+    animation-fill-mode: forwards;
+}
+#hiText {
+    font-size:7vh;
+    font-weight:600;
+        opacity: 0;
+     -webkit-animation: fadeinLeft 0.65s; /* Safari, Chrome and Opera > 12.1 */
+            animation: fadeinLeft 0.65s;
+    animation-fill-mode: forwards;
+}
+#zachText {
+    font-size:11vh;
+    font-weight:700;
+        opacity: 0;
+     -webkit-animation: fadeinLeft 0.65s; /* Safari, Chrome and Opera > 12.1 */
+            animation: fadeinLeft 0.65s;
+     animation-delay: 0.65s;
+    -webkit-animation-delay: 0.65s;
+    animation-fill-mode: forwards;
+    
+}
+.contentLine {
+    font-size:3vh;
+    font-weight: 200;
+     line-height:5vh;
+        opacity: 0;
+     -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+            animation: fadein 0.5s;
+     animation-delay: 2.2s;
+    -webkit-animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+
+}
+#goodCodeText{
+    font-weight: 900;
+    font-size: 3vh;
+}
+a {
+    color:#EEE;
+    text-decoration: none;
+    background-color: RGBA(255,255,255,0.1);
+    -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+a:hover {
+    background-color: RGBA(255,255,255,0.25);
+}
+#contact {
+    font-size:6vh;
+    opacity: 0;
+     -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+            animation: fadein 0.5s;
+     animation-delay: 2.2s;
+    -webkit-animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+    position:fixed;
+    bottom:0px;
+}
+#icons {
+    font-size:7vh;
+        
+
+}
+
+@keyframes slideup {
+    from {
+        opacity: 0;
+        margin-top:10vh;
+    }
+       to {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+@keyframes fadeinLeft {
+    from {
+        margin-left: 10vh;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0;
+
+        opacity: 1;
+    }
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+
+        opacity: 1;
+    }
+}
