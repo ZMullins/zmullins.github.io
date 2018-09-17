@@ -18,19 +18,50 @@ Zach Mullins
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="mainContent"><div id="mainContentFade"><div id="hiText">Hi, I'm</div><div id="zachText">Zach<div id="period">.</div></div>
-    <div class="contentLine">Fourth year undergraduate student at the <a href="">University of Western Ontario</a>.</div>
-        <div class="contentLine">I study Mechatronics Engineering and Computer Science.</div>
-        <div class="contentLine">This summer I built a Machine Learning Project at <a href="">Salesforce</a>.</div>
-        <div class="contentLine">Previously worked an IoT mobile app called <a href="">Trickl</a> at <a href="">London Hydro</a>.</div><br>
-    <div class="contentLine" id="goodCodeText">I love to solve problems through good code + design.
-        </div></div>
-    <div id="contact">
+    <!-- Create a <canvas> element -->
+<canvas id="background-canvas"></canvas>
+
+<!-- Call the script -->
+<script src="granim.min.js"></script>
+
+<!-- Create a Granim instance -->
+<script>
+var granimInstance = new Granim({
+   element: '#background-canvas',
+   name: 'background',
+   opacity: [1, 1],
+   states : {
+       "default-state": {
+           gradients: [
+               ['#2578C1', '#0F3CD8'],
+               ['#39690E', '#195200'],
+               ['8907D8','582F83']
+           ],
+           transitionSpeed:10000
+       }
+   }
+});
+    console.log(granimInstance.stateTransitionSpeed);
+</script>
+
+    <div class="mainContent"><span id="hiText">Hi, I'm</span><br><span id="zachText">Zach<div id="period">.</div></span><br>
+        <span class="contentLine">Fourth year undergraduate student at the <a href="https://www.uwo.ca"><span class="links">University of Western Ontario</span></a>.</span><br>
+        <span class="contentLine">I study Mechatronics Engineering and Computer Science.</span><br>
+        <span class="contentLine">This summer I built a Machine Learning Project at <a href="https://www.salesforce.com"><span class="links">Salesforce</span></a>.</span><br>
+        <span class="contentLine">Previously worked an IoT mobile app called <a href="https://play.google.com/store/apps/details?id=londonhydro.com.residentialapp&hl=en_CA"><span class="links">Trickl</span></a> at <a href="https://www.londonhydro.com" ><span class="links">London Hydro</span></a>.</span><br>
+    <span class="contentLine" id="goodCodeText">I love to solve problems through good code + design.
+        </span>
         <div id="icons">
-    <i class="fab fa-github-square"></i>
-        <i class="fab fa-linkedin"></i>
-    <i class="fas fa-envelope-square"></i></div>
-</div><div class="contentLine" id="resume"><a>Resume</a></div></div>
+            
+            <a href="mailto:me@zmullins.com"><i class="fas fa-envelope" class="icon"></i></a>
+
+            <a href="https://www.linkedin.com/in/zmullins"><i class="fab fa-linkedin-in" class="icon"></i></a>
+                        
+                                          <a href="https://www.github.com/zmullins"><i class="fab fa-github" class="icon"></i>   
+
+        </i>   
+    </i></div></div>
+<!--<div class="contentLine" id="resume"><a>Resume</a></div>-->
     <!--    <div class="links">
     <div class="contentLine" id="resume">Resume</div>
     <div class="contentLine" id="contact">Contact</div>
