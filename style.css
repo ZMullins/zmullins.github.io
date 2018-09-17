@@ -28,6 +28,8 @@ body{
      animation-delay: 1.3s;
     -webkit-animation-delay: 1.3s;
     animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+
 }
 #hiText {
     font-size:8vh;
@@ -36,6 +38,8 @@ body{
      -webkit-animation: fadeinLeft 0.65s; /* Safari, Chrome and Opera > 12.1 */
             animation: fadeinLeft 0.65s;
     animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+
 }
 #zachText {
     font-size:12vh;
@@ -46,6 +50,8 @@ body{
      animation-delay: 0.65s;
     -webkit-animation-delay: 0.65s;
     animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+
     
 }
 .contentLine {
@@ -57,6 +63,8 @@ body{
      animation-delay: 2.2s;
     -webkit-animation-delay: 2.2s;
     animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+
     margin-bottom: 2vh;
     margin-top: 2vh;
     display:inline-block;
@@ -91,6 +99,7 @@ a {
             animation: fadein 0.5s;
      animation-delay: 2.2s;
     -webkit-animation-delay: 2.2s;
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     position:fixed;
     bottom:2vh;
