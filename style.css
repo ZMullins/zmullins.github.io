@@ -19,6 +19,8 @@ min-height: 100%;
     padding: 6vw 0 0 8vw;
     height:auto;
     padding-bottom: 3vh;
+    -webkit-backface-visibility: hidden;
+
 }
 #resume {
     font-size:4vh;
@@ -34,7 +36,6 @@ min-height: 100%;
      animation-delay: 1.3s;
     -webkit-animation-delay: 1.3s;
     animation-fill-mode: forwards;
--webkit-backface-visibility: hidden;
 
 }
 #hiText {
@@ -45,7 +46,6 @@ min-height: 100%;
             animation-name: fadeinLeft;
     animation-duration: 0.65s;
     animation-fill-mode: forwards;
-    -webkit-backface-visibility: hidden;
 
 
 }
@@ -53,13 +53,12 @@ min-height: 100%;
     font-size:12vh;
     font-weight:700;
         opacity: 0;
-     -webkit-animation: fadeinLeft 0.65s; /* Safari, Chrome and Opera > 12.1 */
+     -webkit-animation-name: fadeinLeft; /* Safari, Chrome and Opera > 12.1 */
             animation-name: fadeinLeft;
     animation-duration: 0.65s;
      animation-delay: 0.65s;
     -webkit-animation-delay: 0.65s;
     animation-fill-mode: forwards;
--webkit-backface-visibility: hidden;
 
     
 }
