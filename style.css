@@ -1,19 +1,24 @@
+html,body {
+        margin:0;
+padding: 0;
+    height:100%;
+}
 body{
-    margin:0;
     font-size: 100%;
     width: 100%;
     height:auto;
     color:#EEE;
     font-family: 'Roboto', sans-serif;
+    
 }
-
+#container {
+min-height: 100%;
+    position:relative;
+}
 .mainContent{
-    margin: 8vw 0 0 10vw;
+    padding: 8vw 0 0 10vw;
     height:auto;
-
-}
-#mainContentFade {
-
+    padding-bottom: 3vh;
 }
 #resume {
     font-size:4vh;
@@ -24,11 +29,11 @@ body{
     font-weight: bolder;
     opacity: 0;
      -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-            animation: fadein 0.5s;
+            animation-name: fadein;
+    animation-duration:  0.5s;
      animation-delay: 1.3s;
     -webkit-animation-delay: 1.3s;
     animation-fill-mode: forwards;
-        -webkit-animation-fill-mode: forwards;
 
 }
 #hiText {
@@ -36,9 +41,9 @@ body{
     font-weight:600;
         opacity: 0;
      -webkit-animation: fadeinLeft 0.65s; /* Safari, Chrome and Opera > 12.1 */
-            animation: fadeinLeft 0.65s;
+            animation-name: fadeinLeft;
+    animation-duration: 0.65s;
     animation-fill-mode: forwards;
-        -webkit-animation-fill-mode: forwards;
 
 }
 #zachText {
@@ -46,11 +51,11 @@ body{
     font-weight:700;
         opacity: 0;
      -webkit-animation: fadeinLeft 0.65s; /* Safari, Chrome and Opera > 12.1 */
-            animation: fadeinLeft 0.65s;
+            animation-name: fadeinLeft;
+    animation-duration: 0.65s;
      animation-delay: 0.65s;
     -webkit-animation-delay: 0.65s;
     animation-fill-mode: forwards;
-        -webkit-animation-fill-mode: forwards;
 
     
 }
@@ -59,11 +64,11 @@ body{
     font-weight: 200;
         opacity: 0;
      -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-            animation: fadein 0.5s;
+            animation-name: fadein;
+    animation-duration: 0.5s;
      animation-delay: 2.2s;
     -webkit-animation-delay: 2.2s;
     animation-fill-mode: forwards;
-        -webkit-animation-fill-mode: forwards;
 
     margin-bottom: 2vh;
     margin-top: 2vh;
@@ -74,7 +79,7 @@ body{
     font-weight: 900;
     font-size: 3vh;
     margin-top:3vh;
-    margin-bottom: 3vh;
+    margin-bottom: 6vh;
     display:inline-block;
 }
 a {
@@ -93,7 +98,9 @@ a {
 .links:hover {
     background-color: RGBA(255,255,255,0.25);
 }
+
 #icons {
+   // padding: 1vh 2vh 1vh 0vh;
     opacity: 0;
      -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
             animation: fadein 0.5s;
@@ -101,12 +108,16 @@ a {
     -webkit-animation-delay: 2.2s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    position:fixed;
-    bottom:2vh;
+  //  position:fixed ;
+    bottom:0;
     left:10vw;
      font-size:3vh;
     letter-spacing: 0.5vh;
-
+    //height:5vh;
+   // margin: 0;
+   // clear:both;
+    position: absolute;
+    padding-bottom: 1vh;
 }
 @keyframes slideup {
     from {
@@ -119,7 +130,7 @@ a {
     }
 }
 #background-canvas {
-    position: absolute;
+   position: fixed;
     display: block;
     width: 100%;
     height: 100%;
@@ -127,7 +138,8 @@ a {
     right: 0;
     bottom: 0;
     left: 0;
-}
+    background-attachment: fixed;}
+
 @keyframes fadeinLeft {
     from {
         margin-left: 10vh;
