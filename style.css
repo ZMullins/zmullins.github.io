@@ -16,7 +16,7 @@ min-height: 100%;
     position:relative;
 }
 .mainContent{
-    padding: 8vw 0 0 10vw;
+    padding: 6vw 0 0 8vw;
     height:auto;
     padding-bottom: 3vh;
 }
@@ -88,7 +88,7 @@ a {
 }
 .links{
     
-    background-color: RGBA(255,255,255,0.1);
+    background-color: RGBA(255,255,255,0.15);
     -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -96,7 +96,7 @@ a {
   transition:.5s;
 }
 .links:hover {
-    background-color: RGBA(255,255,255,0.25);
+    background-color: RGBA(255,255,255,0.35);
 }
 
 #icons {
@@ -110,7 +110,7 @@ a {
     animation-fill-mode: forwards;
   //  position:fixed ;
     bottom:0;
-    left:10vw;
+    left:8vw;
      font-size:3vh;
     letter-spacing: 0.5vh;
     //height:5vh;
