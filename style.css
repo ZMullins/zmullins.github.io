@@ -34,6 +34,7 @@ min-height: 100%;
      animation-delay: 1.3s;
     -webkit-animation-delay: 1.3s;
     animation-fill-mode: forwards;
+-webkit-backface-visibility: hidden;
 
 }
 #hiText {
@@ -44,6 +45,8 @@ min-height: 100%;
             animation-name: fadeinLeft;
     animation-duration: 0.65s;
     animation-fill-mode: forwards;
+    -webkit-backface-visibility: hidden;
+
 
 }
 #zachText {
@@ -56,6 +59,7 @@ min-height: 100%;
      animation-delay: 0.65s;
     -webkit-animation-delay: 0.65s;
     animation-fill-mode: forwards;
+-webkit-backface-visibility: hidden;
 
     
 }
