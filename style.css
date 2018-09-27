@@ -118,7 +118,7 @@ a {
    // margin: 0;
    // clear:both;
     position: absolute;
-    padding-bottom: 0.35vw;
+    padding-bottom: 0.5vw;
 }
 @keyframes slideup {
     from {
