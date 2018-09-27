@@ -19,8 +19,6 @@ min-height: 100%;
     padding: 6vw 0 0 8vw;
     height:auto;
     padding-bottom: 3vh;
-    -webkit-backface-visibility: hidden;
-
 }
 #resume {
     font-size:4vh;
@@ -39,7 +37,7 @@ min-height: 100%;
 
 }
 #hiText {
-    font-size:8vh;
+    font-size:7vh;
     font-weight:600;
         opacity: 0;
      -webkit-animation: fadeinLeft 0.65s; /* Safari, Chrome and Opera > 12.1 */
@@ -50,7 +48,7 @@ min-height: 100%;
 
 }
 #zachText {
-    font-size:12vh;
+    font-size:10vh;
     font-weight:700;
         opacity: 0;
      -webkit-animation-name: fadeinLeft; /* Safari, Chrome and Opera > 12.1 */
@@ -63,7 +61,7 @@ min-height: 100%;
     
 }
 .contentLine {
-    font-size:3vh;
+    font-size:2.2vh;
     font-weight: 200;
         opacity: 0;
      -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
@@ -73,8 +71,8 @@ min-height: 100%;
     -webkit-animation-delay: 2.2s;
     animation-fill-mode: forwards;
 
-    margin-bottom: 2vh;
-    margin-top: 2vh;
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
     display:inline-block;
 
 }
