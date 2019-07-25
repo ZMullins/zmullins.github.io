@@ -67,8 +67,8 @@ min-height: 100%;
      -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
             animation-name: fadein;
     animation-duration: 0.5s;
-     animation-delay: 2.2s;
-    -webkit-animation-delay: 2.2s;
+     animation-delay: 2.0s;
+    -webkit-animation-delay: 2.0s;
     animation-fill-mode: forwards;
 
     margin-bottom: 1.5vh;
