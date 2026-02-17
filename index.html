@@ -4,13 +4,22 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!-- -->
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123394242-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-123394242-1');
+</script>
+
  
 <title>
 Zach Mullins
 </title>
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
@@ -19,9 +28,31 @@ Zach Mullins
 <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-<div id="canvasContainer">
+    <!-- Create a <canvas> element -->
+    <div id="canvasContainer">
 <canvas id="background-canvas"></canvas>
 </div>
+<!-- Call the script -->
+<script src="granim.min.js"></script>
+
+<!-- Create a Granim instance -->
+<script>
+var granimInstance = new Granim({
+   element: '#background-canvas',
+   name: 'background',
+   opacity: [1, 1],
+   states : {
+       "default-state": {
+           gradients: [
+               ['#2578C1', '#0F3CD8'],
+               ['#39690E', '#195200'],
+               ['8907D8','582F83']  
+           ],
+           transitionSpeed:10000
+       }
+   }
+});
+</script>
 <div id="container">
     <div class="mainContent"><span id="hiText">Hi, I'm</span><br><span id="zachText">Zach<div id="period">.</div></span><br>
         <span class="contentLine">I'm a Software Engineer at <a href="https://www.pinterest.com"><span class="links">Pinterest</span></a> working on Ads Reporting</span><br>
