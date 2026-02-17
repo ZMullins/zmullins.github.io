@@ -4,22 +4,13 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!-- -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123394242-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-123394242-1');
-</script>
-
  
 <title>
 Zach Mullins
 </title>
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-    
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
@@ -28,38 +19,14 @@ Zach Mullins
 <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <!-- Create a <canvas> element -->
-    <div id="canvasContainer">
+<div id="canvasContainer">
 <canvas id="background-canvas"></canvas>
 </div>
-<!-- Call the script -->
-<script src="granim.min.js"></script>
-
-<!-- Create a Granim instance -->
-<script>
-var granimInstance = new Granim({
-   element: '#background-canvas',
-   name: 'background',
-   opacity: [1, 1],
-   states : {
-       "default-state": {
-           gradients: [
-               ['#2578C1', '#0F3CD8'],
-               ['#39690E', '#195200'],
-               ['8907D8','582F83']  
-           ],
-           transitionSpeed:10000
-       }
-   }
-});
-</script>
 <div id="container">
     <div class="mainContent"><span id="hiText">Hi, I'm</span><br><span id="zachText">Zach<div id="period">.</div></span><br>
-        <span class="contentLine">I'm a Software Development Engineer at <a href="https://www.amazon.com"><span class="links">Amazon</span></a></span><br>
+        <span class="contentLine">I'm a Software Engineer at <a href="https://www.pinterest.com"><span class="links">Pinterest</span></a> working on Ads Reporting</span><br>
+        <span class="contentLine">Previously worked at <a href="https://www.amazon.com"><span class="links">Amazon</span></a> in Supply Chain Optimization Technology</span><br>
         <span class="contentLine">I studied Mechatronics Engineering and Computer Science at the <a href="https://www.uwo.ca"><span class="links">University of Western Ontario</span></a></span><br>
-        <span class="contentLine">In my last internship I worked as a developer on a deep learning project in the <a href="https://jobs.rbc.com/ca/en/amplify"><span class="links">RBC Amplify</span> program</a>.</span><br>
-        <span class="contentLine">The year before that I built a machine learning project at <a href="https://www.salesforce.com"><span class="links">Salesforce</span></a>.</span><br>
-        <span class="contentLine">Previously worked on an IoT mobile app called <a href="https://play.google.com/store/apps/details?id=londonhydro.com.residentialapp&hl=en_CA"><span class="links">Trickl</span></a> at <a href="https://www.londonhydro.com" ><span class="links">London Hydro</span></a>.</span><br>
     <span class="contentLine" id="goodCodeText">I love to solve problems through good code + design.
         </span><br>
 </div>
