@@ -28,38 +28,12 @@ Zach Mullins
 <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    <!-- Create a <canvas> element -->
-    <div id="canvasContainer">
-<canvas id="background-canvas"></canvas>
-</div>
-<!-- Call the script -->
-<script src="granim.min.js"></script>
-
-<!-- Create a Granim instance -->
-<script>
-var granimInstance = new Granim({
-   element: '#background-canvas',
-   name: 'background',
-   opacity: [1, 1],
-   states : {
-       "default-state": {
-           gradients: [
-               ['#2578C1', '#0F3CD8'],
-               ['#39690E', '#195200'],
-               ['8907D8','582F83']  
-           ],
-           transitionSpeed:10000
-       }
-   }
-});
-</script>
 <div id="container">
-    <div class="mainContent"><span id="hiText">Hi, I'm</span><br><span id="zachText">Zach<div id="period">.</div></span><br>
+    <div class="mainContent"><span id="nameText">Hi, I'm Zach.</span><br>
         <span class="contentLine">I'm a Software Engineer at <a href="https://www.pinterest.com"><span class="links">Pinterest</span></a>.</span><br>
         <span class="contentLine">Previously worked at <a href="https://www.amazon.com"><span class="links">Amazon</span></a> in Supply Chain Optimization Technology.</span><br>
         <span class="contentLine">I studied Mechatronics Engineering and Computer Science at the <a href="https://www.uwo.ca"><span class="links">University of Western Ontario.</span></a></span><br>
-    <span class="contentLine" id="goodCodeText">I love to solve problems through good code + design.
-        </span><br>
+    <span class="contentLine" id="goodCodeText">Want to chat or see what I'm working on? Check out my links below.</span><br>
 </div>
         <div id="icons">
             <a href="mailto:me@zmullins.com"><i class="fas fa-envelope" class="icon"></i></a>
