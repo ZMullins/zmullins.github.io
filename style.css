@@ -78,9 +78,7 @@ a {
     gap: 1vh;
 }
 .contact-link {
-    border: 1px solid RGBA(255,255,255,0.5);
-    padding: 0.4vh 1.2vh;
-    border-radius: 4px;
+    padding: 0.4vh 0;
     display: inline-block;
     -o-transition: .5s;
     -ms-transition: .5s;
