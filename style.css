@@ -76,9 +76,13 @@ a {
     position: absolute;
     bottom: 0;
     padding-bottom: 0.5vw;
+    word-spacing: 0.5vh;
 }
 .contact-link {
-    background-color: RGBA(255,255,255,0.15);
+    border: 1px solid RGBA(255,255,255,0.5);
+    padding: 0.4vh 1.2vh;
+    border-radius: 4px;
+    display: inline-block;
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
