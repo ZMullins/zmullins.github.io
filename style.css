@@ -84,15 +84,6 @@ a {
 .contact-link:hover {
     background-color: RGBA(255,255,255,0.35);
 }
-#flag {
-    position: absolute;
-    bottom: 3vw;
-    right: 3vw;
-    font-size: 4vh;
-    opacity: 0;
-    animation: fadein 0.5s 0.5s forwards;
-    -webkit-animation: fadein 0.5s 0.5s forwards;
-}
 @keyframes fadein {
     from {
         opacity: 0;
