@@ -46,8 +46,8 @@ body{
 #goodCodeText{
     font-weight: 700;
     font-size: 3vh;
-    margin-top:3vh;
-    margin-bottom: 6vh;
+    margin-top:1.5vh;
+    margin-bottom: 1.5vh;
     display:inline-block;
 }
 a {
@@ -75,7 +75,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1vh;
+    gap: 1.5vh;
 }
 .contact-link {
     padding: 0.4vh 0;
