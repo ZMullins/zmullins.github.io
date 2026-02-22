@@ -71,10 +71,11 @@ a {
     opacity: 0;
     animation: fadein 0.5s 0.5s forwards;
     -webkit-animation: fadein 0.5s 0.5s forwards;
-    padding-left: 8vw;
+    left: 8vw;
     font-size: 2.2vh;
-    margin-top: auto;
-    padding-bottom: 3vh;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 0.5vw;
 }
 .contact-link {
     background-color: RGBA(255,255,255,0.15);
