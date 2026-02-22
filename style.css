@@ -78,7 +78,7 @@ a {
     gap: 1.5vh;
 }
 .contact-link {
-    padding: 0.4vh 0;
+    padding: 0.4vh 0.6vh;
     display: inline-block;
     -o-transition: .5s;
     -ms-transition: .5s;
