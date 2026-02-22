@@ -70,12 +70,24 @@ a {
     opacity: 0;
     animation: fadein 0.5s 0.5s forwards;
     -webkit-animation: fadein 0.5s 0.5s forwards;
-    bottom:0;
-    left:8vw;
-    font-size:3vh;
-    letter-spacing: 0.5vh;
-    position: absolute;
-    padding-bottom: 0.5vw;
+    display: flex;
+    gap: 1vh;
+    padding-left: 8vw;
+    font-size: 2.2vh;
+}
+.btn {
+    display: inline-block;
+    padding: 0.8vh 1.5vh;
+    border-radius: 4px;
+    background-color: RGBA(255,255,255,0.15);
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.btn:hover {
+    background-color: RGBA(255,255,255,0.35);
 }
 @keyframes fadein {
     from {
