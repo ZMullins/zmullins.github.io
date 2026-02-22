@@ -70,15 +70,10 @@ a {
     opacity: 0;
     animation: fadein 0.5s 0.5s forwards;
     -webkit-animation: fadein 0.5s 0.5s forwards;
-    display: flex;
-    gap: 1vh;
     padding-left: 8vw;
     font-size: 2.2vh;
 }
-.btn {
-    display: inline-block;
-    padding: 0.8vh 1.5vh;
-    border-radius: 4px;
+.contact-link {
     background-color: RGBA(255,255,255,0.15);
     -o-transition: .5s;
     -ms-transition: .5s;
@@ -86,7 +81,7 @@ a {
     -webkit-transition: .5s;
     transition: .5s;
 }
-.btn:hover {
+.contact-link:hover {
     background-color: RGBA(255,255,255,0.35);
 }
 @keyframes fadein {
