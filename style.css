@@ -16,16 +16,6 @@ body{
 min-height: 100%;
     position:relative;
 }
-#flag {
-    position: absolute;
-    top: 4vw;
-    right: 4vw;
-    width: 48px;
-    opacity: 0;
-    animation: fadein 0.5s 0.5s forwards;
-    -webkit-animation: fadein 0.5s 0.5s forwards;
-    z-index: 1;
-}
 .mainContent{
     padding: 6vw 0 0 8vw;
     height:auto;
