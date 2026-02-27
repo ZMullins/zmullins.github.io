@@ -39,8 +39,8 @@ body{
     opacity: 0;
     animation: fadein 0.8s 0.5s forwards;
     -webkit-animation: fadein 0.8s 0.5s forwards;
-    margin-bottom: 1.5vh;
-    margin-top: 1.5vh;
+    margin-bottom: 2.5vh;
+    margin-top: 2.5vh;
     display:inline-block;
 }
 #goodCodeText{
